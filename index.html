@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HM Burger</title>
+
+    <!--- CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/main_style.css">
+
+    <!-- JS -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="static/js/script.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-bar ">
+                <a href="index.html"><img src="image/logo3-final.png" class="logo" alt=""></a>
+            </div>
+
+            <div class="nav-bar" id="mynavbar">
+                <a href="index.html">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#ourmenu">MENU</a>
+                <a href="#gallery">GALLERY</a>
+                <a href="#ourReview">REVIEWS</a>
+                <a href="#contact">CONTACT US</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <div class="left-text">
+                <h2>Best Burgers in town</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eveniet harum suscipit sint ducimus cum modi dolorem id praesentium quam porro tenetur et aspernatur a aperiam magnam, ex architecto numquam.</p>
+                <a href="#ourmenu"><button class="btn"> check out menu</button></a>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="ourStory" id="about">
+        <div class="container animated fadeInUp delay-1s">
+            <div class="ourStory-left">
+                <h1>Our Story</h1>
+                <p>We are selling best burgers since 1999. Our Founder Harsh Mauny Started the food chain Back in 1999 with a Small shop at in west Block of some Town... Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo accusamus facere laborum
+                    voluptas inventore a nulla vitae possimus </p>
+                <button class="btn"> More About us</button>
+            </div>
+            <div class="ourStory-right">
+                <img src="image/ourStory-imagejpg.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="ourmenu">
+        <div class="container">
+            <div class="menu-heading animated fadeInUp delay-2s">
+                <h1>Our Menu</h1>
+                <p>So what will you have?</p>
+            </div>
+
+            <div class="menu-body-heading animated fadeInUp delay-2s">
+                <h3>Burgers</h3>
+                <p>Yummy!</p>
+            </div>
+
+            <div class="menu-body">
+
+                <div class="menu-item animated fadeInLeft delay-2s">
+                    <div class="menu-item-heading ">
+                        <h4>Chili Burger</h4>
+                        <h4 id="price">Rs. 120</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>chilli veg patty, cheese, lettuce, jalepenos and our spicy sauce with soft bun</p>
+                    </div>
+                </div>
+
+                <div class="menu-item animated fadeInRight delay-2s ">
+                    <div class="menu-item-heading">
+                        <h4>Classic Burger</h4>
+                        <h4 id="price">Rs. 150</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>veg patty, cheese, lettuce, tomato, sweet-pickle on a soft bun</p>
+                    </div>
+                </div>
+
+                <div class="menu-item animated fadeInLeft delay-2s">
+                    <div class="menu-item-heading">
+                        <h4>BBQ Burger</h4>
+                        <h4 id="price">Rs. 150</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>chili patty, cheese, crispy onions, paprika potato chips, BBQ sauce, on a soft bun</p>
+                    </div>
+                </div>
+
+                <div class="menu-item animated fadeInRight delay-2s">
+                    <div class="menu-item-heading">
+                        <h4>Big Daddy Burger</h4>
+                        <h4 id="price">Rs. 200</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>double special Stuffed patty, cheese, shredded lettuce,jalepenos, big daddy sauce, on soft bun</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menu-body-heading animated fadeInUp delay-3s">
+                <h3>French Fries</h3>
+                <p>Crispy!</p>
+            </div>
+
+            <div class="menu-body">
+
+                <div class="menu-item animated fadeInLeft delay-3s">
+                    <div class="menu-item-heading">
+                        <h4>Classic Fries</h4>
+                        <h4 id="price">Rs. 80</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>potato french fries with salt</p>
+                    </div>
+                </div>
+
+                <div class="menu-item animated fadeInRight delay-3s">
+                    <div class="menu-item-heading">
+                        <h4>Chilli Fries</h4>
+                        <h4 id="price">Rs. 100</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>potato french fries with chilli and salsa sauce</p>
+                    </div>
+                </div>
+
+                <div class="menu-item animated fadeInLeft delay-3s">
+                    <div class="menu-item-heading">
+                        <h4>Cheese Fries</h4>
+                        <h4 id="price">Rs. 100</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>potato french fries with molten chesse and sauce</p>
+                    </div>
+                </div>
+                <div class="menu-item animated fadeInRight delay-3s">
+                    <div class="menu-item-heading">
+                        <h4><span class="new">New!</span> Sweet Potato Fries</h4>
+                        <h4 id="price">Rs. 150</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>crispy Sweet potato french fries with special sauce</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menu-body-heading animated fadeInUp delay-4s">
+                <h3>Juices and Drinks</h3>
+                <p>Fresh!</p>
+            </div>
+
+            <div class="menu-body">
+
+                <div class="menu-item animated fadeInLeft delay-4s">
+                    <div class="menu-item-heading">
+                        <h4>Soft Drinks</h4>
+                        <h4 id="price">Rs. 60</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>Fanta, Coke, pepsi...</p>
+                    </div>
+                </div>
+
+                <div class="menu-item animated fadeInRight delay-4s">
+                    <div class="menu-item-heading">
+                        <h4>Lemon Mint </h4>
+                        <h4 id="price">Rs. 80</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>Fresh lemn and Mint</p>
+                    </div>
+                </div>
+
+                <div class="menu-item animated fadeInLeft delay-4s">
+                    <div class="menu-item-heading">
+                        <h4> <span class="new">Most Popuplar!</span> Pomegranate Iced Tea </h4>
+                        <h4 id="price">Rs. 120</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>Fresh pomegranate juice with refreshing Ice tea.</p>
+                    </div>
+                </div>
+                <div class="menu-item animated fadeInRight delay-4s">
+                    <div class="menu-item-heading">
+                        <h4><span class="new">New!</span> Morange</h4>
+                        <h4 id="price">Rs. 110</h4>
+                    </div>
+                    <div class="menu-item-description">
+                        <p>Mango and orange juice delight!</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="f-c-gallery" id="gallery">
+        <div class="container animated fadeInUp delay-5s">
+            <div class="f-c-heading">
+                <h1>Food and Customer Gallery</h1>
+                <p>Always keep smiling!</p>
+            </div>
+
+            <div class="cols">
+                <div class="rows">
+                    <a href="image/1.jpg"><img src="image/1.jpg"></a>
+                    <a href="image/2.jpg"><img src="image/2.jpg"></a>
+                </div>
+            </div>
+            <div class="cols">
+                <div class="rows">
+                    <a href="image/3.jpg"><img src="image/3.jpg"></a>
+                    <a href="image/4.jpg"><img src="image/4.jpg"></a>
+                </div>
+            </div>
+            <div class="cols">
+                <div class="rows">
+                    <a href="image/5.jpg"><img src="image/5.jpg"></a>
+                    <a href="image/6.jpg"><img src="image/6.jpg"></a>
+                </div>
+            </div>
+
+        </div>
+        <div style="text-align:center;">
+            <button class="btn"> More Photos</button>
+        </div>
+
+    </section>
+
+    <section class="review" id="ourReview">
+        <div class="container">
+            <div class="review-heading animated fadeInUp delay-8s">
+                <h1>Our Reviews</h1>
+                <p>We have a lot of Happy customer!</p>
+            </div>
+            <div class="review-container">
+
+                <div class="review-item animated fadeInLeft delay-8s">
+                    <div class="review-image">
+                        <img src="image/user1.png" alt="">
+                        <h4>Ted mosbey</h4>
+                    </div>
+                    <div class="review-description">
+                        <p><i>"This is one of the best burgers in the Area, Whatever we had, starters, juices, burgers were amazing. I'm still thinking of the fries with molten cheese and sauce. All the dishes we had were very very good. Try it for sure"</i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="review-item animated fadeInUp delay-8s">
+                    <div class="review-image">
+                        <img src="image/user2.png" alt="">
+                        <h4>Barney Stinson</h4>
+                    </div>
+                    <div class="review-description">
+                        <p><i>"I am regular customer of the HM Burger and just love its menu! Specially Pomegranate Iced Tea"</i>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="review-item animated fadeInRight delay-8s">
+                    <div class="review-image">
+                        <img src="image/user3.png" alt="">
+                        <h4>Monica Geller</h4>
+                    </div>
+                    <div class="review-description">
+                        <p><i>"Though I am not a Fan of fast food the Burgers and fries here are amazing! Money Well spent...."</i>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="whole">
+
+                <div class="opening-hours">
+                    <h3>Opening Hours</h3>
+                    <table>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>8:00 am - 11:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>9:00 am - 11:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>9:00 am - 11:00 pm</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="contact">
+                    <h3>Contact Us</h3>
+                    <p>Block 203, Centre Square Mall, Near Genda circle, Vadodara, Gujarat 390024</p>
+                    <h1 class="number">7896546289</h1>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <div class="container">
+            <h4>Copyright &copy; 2020 HM burger All rights Reserverd. Just joking!!</h4>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mynavbar");
+            if (x.className === "nav-bar") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-bar";
+            }
+        }
+    </script>
+</body>
+
+</html>
