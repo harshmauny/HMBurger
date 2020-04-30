@@ -443,6 +443,9 @@
         .cols {
             width: 100%;
         }
+        section.review {
+            margin-bottom: 100px;
+        }
         .review-container {
             flex-direction: column;
         }
